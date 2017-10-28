@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="js/validacao.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    </head>
+    <body>
+        <div id="campos_formulario">
+            <h2>Validação de formulario</h2>
+            <form post="get" action="#" name="form">
+            <strong>Nome *</strong><br>
+            <input type="text" name="nome" id="nome" onkeyup="validaNome()"> <span class="icone" id="no"> @ </span><p>
+            <strong>Sobrenome *</strong><br>
+            <input type="text" name="sobrenome" id="sobrenome" onkeyup="validaSobreNome()"><span class="icone" id="so"> @ </span><p>
+            <strong>Email *</strong><br>
+            <input type="text" name="email" id="email" onkeyup="validaEmail()"><span class="icone" id="em"> @ </span><p>
+            <strong>Login *</strong><br>
+            <input type="text" name="login" id="login" onkeyup="validalogin()"><span class="icone" id="lo"> @ </span><p>
+            <strong>Senha *</strong><br>
+            <input type="password" name="senha" id="senha" onkeyup="validaSenha()"><span class="icone" id="se"> @ </span><p>
+                        
+            <span id="leia">leia os termos de uso</span><p>
+            <input type="checkbox" name ="termos" id="termos" onclick="(validaTermo())">
+            <span>Você concorda com os termos de uso</span> <span class="icone" id="te"> @ </span>
+
+            <p>    
+            <input type="button" id="botao" value="Enviar" onclick="validaTudo()"> 
+                            
+            </form> 
+        </div>
+        
+        
+        <div id="caixa">
+             Todos os campos são Obrigatórios
+        </div>
+        
+    </body>
+</html>

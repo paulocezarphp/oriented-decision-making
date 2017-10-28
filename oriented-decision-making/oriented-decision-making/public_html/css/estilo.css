@@ -1,0 +1,115 @@
+
+body{
+        
+    color:#555555;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: url("../imagens/fundo2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    
+}
+
+input{
+    
+    border:none;
+    padding:8px 10px;
+    margin:5px 0px;
+    width: 85%;
+    outline: 0 none;
+    color:#666666;
+    
+}
+
+#termos{
+    
+    width:15px;
+    height:15px;
+    
+}
+
+#campos_formulario{
+    
+    width:300px;
+    height:600px; 
+    padding:20px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-170px;
+    margin-top:-320px;
+    background:#dedede;
+    border:1px solid #cccccc;
+    border-radius:12px;
+    -webkit-box-shadow: 1px 1px 33px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 33px -8px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 33px -8px rgba(0,0,0,0.75);
+    
+}
+
+h2{
+    
+}
+
+#botao{
+    
+    padding:10px 25px;
+    background:#4d4d4d;
+    color:#f2f2f2;
+    border:0px;
+    cursor:pointer;
+
+    
+}
+
+#botao:hover{
+      
+    background:#333333;
+         
+}
+
+#caixa{
+    
+    vertical-align:middle;
+    text-align: center;
+    position:absolute;
+    bottom:10px;
+    right:10px ;
+    width:300px;
+    height:80px auto;
+    padding:20px 20px;
+    color:#f2f2f2;
+    background: #606c88;
+    background: -moz-linear-gradient(-45deg, #606c88 0%, #3f4c6b 100%);
+    background: -webkit-linear-gradient(-45deg, #606c88 0%,#3f4c6b 100%);
+    background: linear-gradient(135deg, #606c88 0%,#3f4c6b 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=1 );
+    -webkit-box-shadow: 1px 1px 12px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 12px 1px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 12px 1px rgba(0,0,0,0.75);
+
+}
+
+#leia{
+    
+    color:#555555;
+    cursor:pointer;
+    
+}
+
+#leia:hover{
+    
+    color:#1f497a;
+    border-bottom:1px solid #1f497a;
+    
+}
+
+.icone{
+    
+    border-radius:50px;
+    font-weight: bold;
+    margin:0px 5px;
+    font-size:15px;
+    color:#999999;
+    
+}
